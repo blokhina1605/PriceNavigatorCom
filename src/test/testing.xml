@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestAll" parallel="false">
+    <test name="ComparsionTest">
+        <classes>
+            <class name="com.epam.blokhina.ComparsionTest"/>
+        </classes>
+    </test>
+    <test name="filterBrandTest">
+        <classes>
+            <class name="com.epam.blokhina.FilterBrandTest"/>
+
+        </classes>
+    </test>
+    <test name="filterPriceTest">
+        <classes>
+            <class name="com.epam.blokhina.FilterPriceTest"/>
+        </classes>
+    </test>
+
+    <test name="sortFridgesTest">
+        <classes>
+            <class name="com.epam.blokhina.SortFridgesTest"/>
+        </classes>
+    </test>
+
+    <test name="WeightFilterTest">
+        <classes>
+            <class name="com.epam.blokhina.WeightFilterTest"/>
+        </classes>
+    </test>
+
+    <test name="DescriptionTest">
+        <classes>
+            <class name="com.epam.blokhina.DescriptionTest"/>
+        </classes>
+    </test>
+
+
+</suite>
